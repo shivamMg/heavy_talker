@@ -1,0 +1,16 @@
+builds:
+- project: core-dev
+  build:
+    buildName: heavy_talker
+    strategyType: source
+    repository: https://github.com/shivamMg/heavy_talker
+    architecture: amd64
+    rosDistro: melodic
+    isRos: true
+    contextDir: ''
+    dockerFilePath: ''
+    secret: ''
+    dockerPullSecret: ''
+    simulationOptions: null
+    buildOptions: null
+
